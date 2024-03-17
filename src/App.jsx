@@ -1,12 +1,11 @@
-
+import "./index.css";
 
 function App() {
- 
   return (
     <>
-   <p>salom</p>
+      <p>salom</p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
