@@ -1,0 +1,44 @@
+@media screen and (max-width: 1280px) {
+  .img {
+    max-width: 1000px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .img {
+    max-width: 900px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .img {
+    max-width: 800px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .img {
+    max-width: 700px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .img {
+    max-width: 600px;
+    height: auto;
+  }
+  .title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .img {
+    max-width: 500px;
+    height: auto;
+  }
+}

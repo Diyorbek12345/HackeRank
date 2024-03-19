@@ -23,8 +23,9 @@ ol {
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: rgb(122, 220, 180);
 }
 
-.img{
+.img {
   padding-right: 70px;
 }

@@ -3,10 +3,11 @@ import styled from "styled-components";
 import "../../index.css";
 import arrow_right from "../../assets/arrow_right.png";
 import commmunity from "../../assets/community.jpg";
+import style from "./section.module.css";
 
 export const Section = () => {
   return (
-    <div>
+    <div className={style.contain}>
       <Title>It’s not a pipeline problem.</Title>
       <Subtitle>It’s a spotlight problem.</Subtitle>
       <Text>
@@ -15,13 +16,14 @@ export const Section = () => {
         they need to showcase their skills, passion, and potential.
       </Text>
 
-      <Links>
+      <Links className={style.words}>
         <Link>Prep</Link>
         <Link>Screen</Link>
         <Link>Interview</Link>
       </Links>
-      <Container>
-        <Wrap>
+
+      <Container className={style.wrapper}>
+        <Wrap className={style.context}>
           <Header>:: Coding practice ::</Header>
           <MainTitle>Explore and expand your skills</MainTitle>
           <MainText>
@@ -36,7 +38,7 @@ export const Section = () => {
           </Button>
         </Wrap>
         <div className="img">
-          <img width={500} src={commmunity} alt="" />
+          <img className={style.img} width={500} src={commmunity} alt="" />
         </div>
       </Container>
     </div>
@@ -146,8 +148,4 @@ const Button = styled.button`
       margin-left: 5px;
     }
   }
-`;
-
-const Img = styled.img`
-  object-fit: cover;
 `;

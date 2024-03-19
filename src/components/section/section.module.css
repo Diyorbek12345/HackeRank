@@ -1,0 +1,21 @@
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .words {
+    margin-right: 300px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .img {
+    width: 400px;
+  }
+
+  .context {
+    max-width: 500px;
+  }
+}

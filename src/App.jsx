@@ -1,18 +1,20 @@
 import { Section } from "./components/section";
+import { Section2 } from "./components/section2";
 import "./index.css";
-
 
 function App() {
   return (
     <div className="container">
-      <Section/>
+      <Section />
+      <Section2 />
     </div>
   );
 }
 
 export default App;
 
-{/* <BrowserRouter>
+{
+  /* <BrowserRouter>
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
@@ -26,4 +28,5 @@ export default App;
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
-    </BrowserRouter> */}
+    </BrowserRouter> */
+}
